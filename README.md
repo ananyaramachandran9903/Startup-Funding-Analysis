@@ -64,20 +64,25 @@ For investors, startup operators, and strategy teams, monitoring advancement thr
 
 ## Project Structure
 startup-funding-analytics/
-sql/
-01_data_exploration.sql
-02_funding_analysis.sql
-03_final_analysis.sql
-outputs/
-startup_landscape.csv
-venture_funding_by_industry.csv
-acquisition_rate_by_stage.csv
-acquisition_rate_by_industry.csv
-visuals/
-startup_landscape.png
-venture_funding_by_industry.png
-acquisition_rate_by_stage.png
-acquisition_rate_by_industry.png
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_data_exploration.sql
+│   ├── 02_funding_analysis.sql
+│   └── 03_final_analysis.sql
+│
+├── outputs/
+│   ├── startup_landscape.csv
+│   ├── venture_funding_by_industry.csv
+│   ├── acquisition_rate_by_industry.csv
+│   └── funding_progression.csv
+│
+├── dashboard/
+│   └── startup_funding_dashboard.twbx
+│
+└── visuals/
+    └── startup_dashboard.png
 
 ## Future Improvements
 Build predictive models to estimate acquisition probability based on funding characteristics
