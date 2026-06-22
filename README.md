@@ -85,6 +85,7 @@ startup-funding-analytics/
 └── visuals/
     └── startup_dashboard.png
 ```
+
 ## Future Improvements
 Build predictive models to estimate acquisition probability based on funding characteristics
 Incorporate funding dates to analyze startup growth over time
