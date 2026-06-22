@@ -63,6 +63,7 @@ The results suggest that funding-stage progression may serve as an important ind
 For investors, startup operators, and strategy teams, monitoring advancement through funding rounds may provide valuable insight into future business outcomes and exit opportunities.
 
 ## Project Structure
+```text
 startup-funding-analytics/
 │
 ├── README.md
