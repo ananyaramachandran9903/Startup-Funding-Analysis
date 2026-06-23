@@ -1,11 +1,12 @@
 # From Seed to Exit: How Venture Capital Progression Influences Startup Success
 
 ## Project Overview
-Venture capital plays a critical role in the growth and development of startups, yet not all companies experience the same outcomes. This project analyzes over 54,000 global startup records to investigate how funding progression, industry characteristics, and venture capital investment patterns relate to startup acquisition outcomes.
-Using PostgreSQL and SQL-based analysis, I explored startup activity across industries, countries, and funding stages to identify factors associated with successful exits and long-term business growth.
+Venture capital plays a critical role in the growth and development of startups, yet not all companies experience the same outcomes. This project analyzes over 54,000 global startup records to investigate how funding progression, industry characteristics, and VC investment patterns relate to startup acquisition outcomes.
+
+Using PostgreSQL and SQL-based analysis, I explored startup activity across industries, countries, and funding stages to identify factors associated with successful exits and long-term growth.
 
 ## Business Objective
-The objective of this project was to better understand the startup funding lifecycle and identify patterns associated with startup success.
+The objective of this project was to understand the startup funding lifecycle and identify patterns associated with startup success.
 
 ### Key Business Questions
 1. How does acquisition likelihood change as startups progress from Seed funding to later-stage funding rounds?
@@ -35,16 +36,16 @@ Funding Rounds
 
 ## Methodology
 ### 1. Data Exploration
-Performed initial exploration of startup activity, company outcomes, industry distribution, and geographic coverage.
+Performed initial exploration of startup activity, company outcomes, industry and geographic distribution.
 ### 2. Data Cleaning and Preparation
 Imported raw startup data into PostgreSQL
 Validated data quality and column structures
 Standardized fields for analysis
 Investigated missing and incomplete records
 ### 3. Funding and Industry Analysis
-Analyzed venture capital allocation across industries and startup sectors to identify areas receiving the highest levels of investment.
+Analyzed venture capital allocation across industries and startup sectors to identify the highest levels of investment.
 ### 4. Funding Progression Analysis
-Developed funding-stage groupings to evaluate how startup outcomes change as companies progress through the venture capital lifecycle.
+Developed funding-stage groups to evaluate how startup outcomes change as companies progress through the venture capital lifecycle.
 ### 5. Acquisition Outcome Analysis
 Calculated acquisition rates across industries and funding stages to identify characteristics associated with successful startup exits.
 
@@ -52,7 +53,7 @@ Calculated acquisition rates across industries and funding stages to identify ch
 ### Finding 1: Startup Activity Is Concentrated in Technology-Oriented Industries
 Software and Biotechnology represented the largest startup sectors within the dataset, highlighting the dominance of technology-driven entrepreneurship.
 ### Finding 2: Venture Capital Is Highly Concentrated
-Technology-intensive industries such as Technology, Entertainment, Medical Devices, Clean Technology, and Semiconductors received the highest average levels of venture capital investment.
+Technology intensive industries such as Technology, Entertainment, Medical Devices, Clean Technology, and Semiconductors received the highest average levels of venture capital investment.
 ### Finding 3: Funding Progression Is Strongly Associated with Acquisition Outcomes
 Startups that advanced through later funding rounds demonstrated substantially higher acquisition rates.
 ### Finding 4: Later-Stage Startups Were Significantly More Likely to Be Acquired
@@ -87,10 +88,8 @@ startup-funding-analytics/
 ```
 
 ## Future Improvements
-Build predictive models to estimate acquisition probability based on funding characteristics
-Incorporate funding dates to analyze startup growth over time
-Evaluate acquisition outcomes by geography and startup age
-Develop an interactive Power BI dashboard for stakeholder reporting
-Compare acquisition, IPO, and closure outcomes using additional startup datasets
+- Build predictive models to estimate acquisition probability based on funding characteristics.
+- Incorporate funding dates to analyze startup growth over time.
+
 
 
